@@ -11,7 +11,7 @@ body{
 }
 /* my nav */
 .my-logo{
-    width: 10rem !important;
+    width: 7rem !important;
 }
 .boton-nav{
     background-color: var(--color-amarillo-primario) !important;
@@ -39,7 +39,7 @@ body{
 
 
 /* explore */
-.explore{
+.stars{
     position: relative;
     /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-85757065-1649322336.jpg); */
     background-image: url(https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_960_720.jpg);
@@ -49,7 +49,7 @@ body{
     height: 50vh;
     
 }
-.explore::before{
+.stars::before{
     content: "";
     position: absolute !important;
     top: 0;
@@ -74,9 +74,40 @@ body{
 }
 
 
+
+
+/* explore */
+.my-img-explore-item{
+
+    transform: skewX(-15deg);
+    border-bottom: solid #ffc107 2px;
+    margin: 2rem;
+    padding: 0 !important;
+}
+
+
+
+/* news */
+.news-items{
+    border-left: solid 5px var(--color-amarillo-primario);
+    border-bottom: solid 5px var(--color-amarillo-primario);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+/* footer */
+.redes{
+    color: #ffc107;
+}
+
 /* media query */
-@media (max-width:740px){
-  
+@media (max-width:780px){
+   
+    
+    
     
 }
 @media (min-width:1024px){
@@ -90,9 +121,10 @@ body{
     .inicio{
         margin-top: 5rem !important;
     }
-    .explore{
+    .stars{
         background-size: 950px;
     }
+  
 }    
 @media (min-width:1440px){
     .container-titulo-hero{
@@ -105,9 +137,10 @@ body{
     .inicio{
         margin-top: 10rem !important;
     }
-    .explore{
+    .stars{
         background-size: 1250px;
     }
+   
 }
 @media (min-width:1441px){
     .container-titulo-hero{
@@ -120,7 +153,7 @@ body{
     .inicio{
         margin-top: 10rem !important;
     }
-    .explore{
+    .stars{
         background-size: 2300px;
     }
 }
