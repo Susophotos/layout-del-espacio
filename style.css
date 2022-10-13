@@ -1,0 +1,85 @@
+:root{
+    --color-amarillo-primario: #ffc107;
+}
+
+
+body{
+    background-color: black !important;
+}
+*{
+    color: white !important;
+}
+/* my nav */
+.my-logo{
+    width: 10rem !important;
+}
+.boton-nav{
+    background-color: var(--color-amarillo-primario) !important;
+}
+
+
+
+
+/* my hero */
+.my-img-hero{
+    opacity: .6;
+}
+
+
+/* efecto de puntos no logrado */
+.container-img-hero::before{
+    content: "";
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: radial-gradient(rgb(0, 0, 0) 20%, transparent 0));
+    background-size: 10px 10px;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media (min-width:1024px){
+    .container-titulo-hero{
+        left: 0;
+        margin-left: 5rem;
+    }
+    .my-img-hero{
+        max-width: 400px !important;
+    }
+    .inicio{
+        margin-top: 5rem !important;
+    }
+}    
+
+@media (min-width:1440px){
+    .container-titulo-hero{
+        left: 0;
+        margin-left: 9rem;
+    }
+    .my-img-hero{
+        max-width: 550px !important;
+    }
+    .inicio{
+        margin-top: 10rem !important;
+    }
+}
+@media (min-width:1441px){
+    .container-titulo-hero{
+        left: 0;
+        margin-left: 25rem;
+    }
+    .my-img-hero{
+        max-width: 990px !important;
+    }
+    .inicio{
+        margin-top: 10rem !important;
+    }
+}
