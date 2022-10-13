@@ -21,12 +21,8 @@ body{
 
 
 /* my hero */
-.my-img-hero{
-    opacity: .6;
-}
 
 
-/* efecto de puntos no logrado */
 .container-img-hero::before{
     content: "";
     position: absolute !important;
@@ -34,9 +30,13 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: radial-gradient(rgb(0, 0, 0) 20%, transparent 0);
-    background-size: 10px 10px;
+    background-image: radial-gradient(transparent 0, rgb(0, 0, 0) 120%);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
 }
+
+
+
 
 /* explore */
 .explore{
