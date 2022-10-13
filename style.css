@@ -75,7 +75,12 @@ body{
 
 
 /* media query */
-
+@media (max-width:760px){
+    .my-img-luna{
+        margin-top: 3rem;
+    }
+    
+}
 @media (min-width:1024px){
     .container-titulo-hero{
         left: 0;
