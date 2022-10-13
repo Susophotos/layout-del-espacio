@@ -34,13 +34,43 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: radial-gradient(rgb(0, 0, 0) 20%, transparent 0));
+    background-image: radial-gradient(rgb(0, 0, 0) 20%, transparent 0);
     background-size: 10px 10px;
 }
 
+/* explore */
+.explore{
+    position: relative;
+    /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-85757065-1649322336.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_960_720.jpg);
+    background-size: 900px;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    height: 50vh;
+    
+}
+.explore::before{
+    content: "";
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: radial-gradient(transparent 0, rgb(0, 0, 0) 80%);
+    background-size: cover;
+}
+.my-icon{
+    font-size: 2rem;
+    color: var(--color-amarillo-primario) !important;
+}
 
-
-
+/* description */
+.container-description-1 h2{
+    color: var(--color-amarillo-primario) !important;
+}
+.my-img-luna{
+    transform: rotate(240deg);
+}
 
 
 
@@ -57,8 +87,10 @@ body{
     .inicio{
         margin-top: 5rem !important;
     }
+    .explore{
+        background-size: 950px;
+    }
 }    
-
 @media (min-width:1440px){
     .container-titulo-hero{
         left: 0;
@@ -69,6 +101,9 @@ body{
     }
     .inicio{
         margin-top: 10rem !important;
+    }
+    .explore{
+        background-size: 1250px;
     }
 }
 @media (min-width:1441px){
@@ -81,5 +116,8 @@ body{
     }
     .inicio{
         margin-top: 10rem !important;
+    }
+    .explore{
+        background-size: 2300px;
     }
 }
