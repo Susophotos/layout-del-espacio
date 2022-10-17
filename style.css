@@ -95,7 +95,13 @@ body{
     margin-bottom: 2rem;
     padding: 1rem;
 }
+.img__sticky{
+    position: sticky !important;
+    top: 10%;
+    min-height: 15rem;
 
+
+}
 
 
 
