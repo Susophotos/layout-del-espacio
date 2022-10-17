@@ -33,6 +33,7 @@ body{
     background-image: radial-gradient(transparent 0, rgb(0, 0, 0) 120%);
     background-color: rgba(0, 0, 0, 0.3);
     background-size: cover;
+    
 }
 
 
@@ -56,7 +57,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: radial-gradient(transparent 0, rgb(0, 0, 0) 80%);
+    background-image: radial-gradient(transparent 0, rgb(0, 0, 0) 65%);
     background-size: cover;
 }
 .my-icon{
@@ -102,6 +103,31 @@ body{
 .redes{
     color: #ffc107;
 }
+.divLogoFooter{
+    min-height: 20rem !important;
+    background-image: url(https://s1.eestatic.com/2021/10/06/ciencia/medio-ambiente/617449818_210913166_1706x960.jpg);
+    background-size: cover;
+}
+.cajaImgFooter__logo{
+    width: 8rem !important;
+    position: relative;
+    z-index: 2;
+}
+.divLogoFooter::after{
+    content: "";
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.7) 7%, rgba(1,76,114,0) 50%, rgba(1,114,153,0) 51%, rgba(0,0,0,0.9) 90%);
+    background-size: cover;
+    
+}
+.my-footer{
+    height: 5rem !important;
+}
+
 
 /* media query */
 @media (max-width:780px){
@@ -155,5 +181,14 @@ body{
     }
     .stars{
         background-size: 2300px;
+    }
+    .divLogoFooter{
+        min-height: 50rem !important;
+    }
+    .cajaImgFooter__logo{
+        width: 15rem !important;
+    }
+    .sectionContainerFooter{
+        height: 10rem;
     }
 }
