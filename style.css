@@ -117,11 +117,11 @@ p{
     position: sticky !important;
     top: 10%;
     min-height: 15rem;
-
-
 }
 
-
+.news__a{
+    text-decoration: none;
+}
 
 /* footer */
 .redes{
