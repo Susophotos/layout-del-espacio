@@ -5,9 +5,11 @@
 
 body{
     background-color: black !important;
+    margin: 0rem .4rem !important;
 }
 *{
     color: white !important;
+    font-family: 'Oxanium', cursive;
 }
 /* my nav */
 .my-logo{
@@ -15,6 +17,19 @@ body{
 }
 .boton-nav{
     background-color: var(--color-amarillo-primario) !important;
+}
+
+h1{
+    font-weight: 600 !important;
+}
+h2{
+    font-weight: 400 !important;
+}
+h3{
+    font-weight: 300 !important;
+}
+p{
+    font-weight: 200 !important;
 }
 
 
@@ -79,11 +94,14 @@ body{
 
 /* explore */
 .my-img-explore-item{
-
+    min-width: 4rem !important;
     transform: skewX(-15deg);
     border-bottom: solid #ffc107 2px;
     margin: 2rem;
     padding: 0 !important;
+}
+.explore{
+    width: 100% !important;
 }
 
 
