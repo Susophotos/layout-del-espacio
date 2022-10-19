@@ -65,6 +65,7 @@ p{
     height: 50vh;
     
 }
+/* star */
 .stars::before{
     content: "";
     position: absolute !important;
@@ -78,6 +79,46 @@ p{
 .my-icon{
     font-size: 2rem;
     color: var(--color-amarillo-primario) !important;
+}
+/* bordes de stars */
+.divStar__item--p{
+    position: relative;
+    padding: .7rem 1rem;
+
+}
+.divStar__item--p span {
+    position: absolute;
+    height: .5rem;
+    width:  .5rem;
+}
+.span1{
+    
+    border-top: solid var(--color-amarillo-primario) .1rem;
+    border-right: solid var(--color-amarillo-primario) .1rem;
+    right: 0;
+    top: 0;
+    
+}
+.span2{
+    border-bottom: solid var(--color-amarillo-primario) .1rem;
+    border-right: solid var(--color-amarillo-primario) .1rem;
+    right: 0;
+    bottom: 0;
+    
+}
+.span3{
+    border-bottom: solid var(--color-amarillo-primario) .1rem;
+    border-left: solid var(--color-amarillo-primario) .1rem;
+    left: 0;
+    bottom: 0;
+    
+}
+.span4{
+    border-top: solid var(--color-amarillo-primario) .1rem;
+    border-left: solid var(--color-amarillo-primario) .1rem;
+    left: 0;
+    top: 0;
+    
 }
 
 /* description */
@@ -97,7 +138,7 @@ p{
     min-width: 4rem !important;
     transform: skewX(-15deg);
     border-bottom: solid #ffc107 2px;
-    margin: 2rem;
+    margin: 1rem;
     padding: 0 !important;
 }
 .explore{
