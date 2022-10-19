@@ -59,7 +59,7 @@ p{
     position: relative;
     /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-85757065-1649322336.jpg); */
     background-image: url(https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_960_720.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat !important;
     background-position: center;
     height: 50vh;
