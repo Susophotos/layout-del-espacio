@@ -11,6 +11,10 @@ body{
     color: white !important;
     font-family: 'Oxanium', cursive;
 }
+main{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 /* my nav */
 .my-logo{
     width: 7rem !important;
