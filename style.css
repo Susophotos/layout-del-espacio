@@ -59,7 +59,7 @@ p{
     position: relative;
     /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-85757065-1649322336.jpg); */
     background-image: url(https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_960_720.jpg);
-    background-size: 900px;
+    background-size: cover;
     background-repeat: no-repeat !important;
     background-position: center;
     height: 50vh;
@@ -70,9 +70,9 @@ p{
     content: "";
     position: absolute !important;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
+    width: 100%;
+    height: 100%;
     background-image: radial-gradient(transparent 0, rgb(0, 0, 0) 65%);
     background-size: cover;
 }
@@ -214,6 +214,12 @@ p{
     }
     .stars{
         background-size: 950px;
+    }
+    .divLogoFooter{
+        min-height: 30rem !important;
+    }
+    .my-img-explore-item{
+        margin: 2rem;
     }
   
 }    
